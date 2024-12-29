@@ -1,0 +1,39 @@
+@import "/assets/styles/variables.css";
+@import "/assets/styles/components/carousel.css";
+@import "/assets/styles/components/card-trail.css";
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+article.content {
+  padding: 0 24rem;
+  margin: 1.5rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+span.tertiary {
+  color: var(--text-tertiary-color);
+}
+
+span.quaternary{
+  color: var(--text-quaternary-color);
+}
+
+h1{
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+    article.content {
+        padding: 0 2rem;
+      }
+}
+
+@media screen and (max-width: 768px) {
+}
