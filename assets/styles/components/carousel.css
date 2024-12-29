@@ -1,0 +1,46 @@
+@import "/assets/styles/variables.css";
+
+#carousel {
+  width: 100%;
+}
+
+.carousel-caption {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -25%);
+  text-align: center;
+  -webkit-transform: translate(-50%, -25%);
+  -moz-transform: translate(-50%, -25%);
+  -ms-transform: translate(-50%, -25%);
+  -o-transform: translate(-50%, -25%);
+}
+
+.carousel-text {
+  width: 100%;
+  font-size: var(--font-size-caption);
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1024px) {
+  .carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .carousel-text {
+    width: 100%;
+    font-size: var(--font-size-large);
+    font-weight: bold;
+  }
+}
