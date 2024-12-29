@@ -40,6 +40,8 @@ a:hover {
 
 .down-section {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   gap: 2vw;
 }
 
@@ -47,6 +49,7 @@ a:hover {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  justify-content: center;
   gap: 3vw;
 }
 
@@ -56,8 +59,15 @@ a:hover {
   gap: 1vw;
 }
 
+.social-media{
+  display: flex;
+  gap: 6vw;
+  justify-content: center;
+  align-items: center;
+}
+
 .social-media img {
-  width: 5rem;
+  width: 3rem;
 }
 
 @media screen and (max-width: 1024px) {
@@ -76,21 +86,19 @@ a:hover {
 
   .down-section {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 4vw;
-  }
-
-  .social-media img {
-    width: 3rem;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
   a {
     font-size: var(--font-size-medium);
   }
 
-  .social-media img {
-    width: 2rem;
+  .down-section {
+    display: flex;
+    flex-direction: column;
+    gap: 4vw;
   }
 }
