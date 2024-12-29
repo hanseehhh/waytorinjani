@@ -1,0 +1,30 @@
+@import "/assets/styles/variables.css";
+
+nav {
+  margin: 0 1rem;
+}
+
+img {
+  width: 15vw;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.nav-link {
+  font-size: var(--font-size-header);
+  color: var(--text-primary-color);
+}
+
+@media screen and (max-width: 992px) {
+  .nav-link {
+    font-size: var(--font-size-large);
+    color: var(--text-primary-color);
+  }
+
+  img {
+    width: 30vw;
+  }
+}
