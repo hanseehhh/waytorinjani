@@ -1,0 +1,45 @@
+@import "/assets/styles/variables.css";
+
+h2 {
+  margin-top: 2rem;
+  font-size: var(--font-size-xlarge);
+  color: var(--text-secondary-color);
+}
+
+button {
+  font-size: var(--font-size-caption);
+}
+
+.accordion-item {
+  border: none;
+  width: 55vw;
+}
+
+.accordion-button {
+  border-bottom: 2px solid var(--text-primary-color);
+  background-color: transparent;
+  color: var(--text-primary-color);
+  font-size: var(--font-size-large);
+  font-weight: 500;
+  text-align: left;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+  border-bottom-color: var(--text-primary-color);
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: transparent;
+  color: var(--text-primary-color);
+}
+
+.accordion-body {
+  border-bottom-color: var(--text-primary-color);
+}
+
+@media screen and (max-width: 768px) {
+  .accordion-item {
+    width: 90vw;
+  }
+}
