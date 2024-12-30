@@ -40,14 +40,14 @@ article.content {
 }
 
 #carousel_2 {
-  width: 70rem; /* Atur panjang carousel sesuai keinginan */
+  width: 70rem;
   height: 100%;
-  margin: 0 auto; /* Agar carousel berada di tengah halaman */
+  margin: 0 auto; 
 
 }
 
 #carousel_2 .carousel-inner img {
-  width: 100%; /* Pastikan gambar memenuhi panjang carousel */
+  width: 100%; 
   height: fit-content; 
   
 }
