@@ -8,6 +8,10 @@ section {
   align-items: center;
 }
 
+.main-content{
+  margin-top: 5rem;
+}
+
 article.content {
   padding: 0 24rem;
   margin: 1.5rem 0;
