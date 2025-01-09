@@ -17,22 +17,28 @@
   font-size: var(--font-size-header);
   color: var(--text-tertiary-color);
   font-weight: bold;
+  font-size: 2.5rem;
 }
 
 .card-packages h2 {
   color: var(--text-quaternary-color);
   font-size: var(--font-size-xlarge);
+  margin: 0;
+  font-size: 2rem;
 }
 
 .card-packages p {
   font-size: var(--font-size-xlarge);
   color: var(--text-primary-color);
   font-weight: 600;
+  margin: 1rem 0 0.5rem 0;
+  font-size: 2rem;
 }
 
 .card-packages p span {
   color: var(--text-secondary-color);
   font-size: var(--font-size-small);
+  font-size: 1rem;
 }
 
 .card-packages-button {
@@ -58,4 +64,5 @@
 .card-packages-button a {
   text-decoration: none;
   color: inherit;
+  font-size: 2rem;
 }
