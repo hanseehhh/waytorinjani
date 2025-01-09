@@ -6,13 +6,70 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow-x: hidden;
 }
 
 .main-content{
   margin-top: 5rem;
 }
 
-article.content {
+.content img{
+  width: 22rem;
+  height: 7rem;
+  margin-bottom: 2rem;
+}
+
+/* First Page */
+
+.first_page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+  margin-top: 5rem;
+}
+
+.first_page .content {
+  padding: 0 24rem;
+  margin: 3rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+}
+
+.first_page .explanation{
+  font-family: 'Crimson Text';
+  font-size: 18pt;
+  text-align: justify;
+  width: 70rem;
+  margin-bottom: 1rem;
+}
+
+#carousel {
+  width: 100%; 
+  max-width: 100rem; 
+  margin: 0 auto; 
+}
+
+#carousel .carousel-inner img {
+  height: 40rem; 
+  object-fit: cover; 
+}
+
+/* End First Page */
+
+
+/* Second Page */
+
+.second_page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.second_page .content {
   padding: 0 24rem;
   margin: 1.5rem 0;
   display: flex;
@@ -21,25 +78,206 @@ article.content {
   align-items: center;
 }
 
-article.content h1 {
+.second_page .content h1 {
   font-size: var(--font-size-header);
 }
 
-article.content p {
-  margin: 1rem 0;
+.second_page .explanation {
+  font-family: 'Crimson Text';
+  font-size: 18pt;
+  text-align: justify;
+  width: 70rem;
 }
 
-.package-services {
-  margin: 4rem 16rem;
+.subtittle{
+  font-family: 'Crimson Text';
+  font-size: 24pt;
+  font-weight: bold;
+  text-align: justify;
+  width: 70rem;
+  margin-top: 2rem;
+}
+
+#carouselsecond_page {
+  width: 100%; 
+  max-width: 70rem; 
+  margin: 0 auto; 
+}
+
+#carouselsecond_page .carousel-inner img {
+  height: 30rem; 
+  object-fit: cover; 
+}
+
+.carousel-caption-bottom {
+  font-family: "Crimson Text", serif;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  font-size: 25pt;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: white;
+  padding: 10px 20px;
+}
+
+.second_page .carousel-inner {
+  position: relative;
+}
+
+/* End Second Page */
+
+
+/* Third Page  */
+
+.third_page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.third_page .content {
+  padding: 0 24rem;
+  margin: 1.5rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#carouselthird_page {
+  width: 100%; 
+  max-width: 70rem; 
+  margin: 0 auto; 
+  margin-top: 2rem;
+}
+
+#carouselthird_page .carousel-inner img {
+  height: 30rem; 
+  object-fit: cover; 
+}
+
+.carousel-caption-bottom {
+  font-family: "Crimson Text", serif;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  font-size: 25pt;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: white;
+  padding: 10px 20px;
+}
+
+.third_page .carousel-inner {
+  position: relative;
+}
+
+.third_page .explanation {
+  font-family: 'Crimson Text';
+  font-size: 18pt;
+  text-align: justify;
+  width: 70rem;
+  margin-top: 2rem;
+}
+
+.third_page .explanation {
+  font-family: 'Crimson Text';
+  font-size: 18pt;
+  text-align: justify;
+  width: 70rem;
+  margin-top: 1rem;
+}
+
+.third_page .subtittle{
+  font-family: 'Poppins';
+  font-size: 26pt;
+  font-weight: bold;
+  text-align: justify;
+  width: 70rem;
+}
+
+.third_page .sub-subtittle{
+  font-family: 'Crimson Text';
+  font-size: 20pt;
+  font-weight: bold;
+  text-align: left;
+  width: 70rem;
+}
+
+.third_page .paragraph {
+  font-family: 'Crimson Text';
+  font-size: 18pt;
+  text-align: justify;
+  width: 70rem;
+  margin-bottom: 2rem;
+}
+
+.third_page .explanation_end {
+  font-family: 'Crimson Text';
+  font-size: 18pt;
+  text-align: justify;
+  width: 70rem;
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+}
+
+/* End Third Page  */
+
+
+/* Fourth Page  */
+
+.fourth_page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.fourth_page .content {
+  padding: 0 24rem;
+  margin: 1.5rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fourth_page .package-services {
+  margin: 0 16rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
-  gap: 4rem;
+  align-items: flex-start;
+  gap: 6rem;
 }
 
-.package-services h2 {
+.fourth_page .private-trip {
+  flex: 1; 
+  max-width: 100%; 
+  text-align: left;
+}
+
+.fourth_page .explanation {
+  font-family: 'Crimson Text';
+  font-size: 18pt;
+  text-align: justify;
+  width: 30rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.fourth_page .subtittle{
+  font-family: 'Crimson Text';
+  font-size: 26pt;
+  font-weight: medium;
   text-align: center;
+  width: 30rem;
 }
 
 .styled-button {
@@ -56,11 +294,34 @@ article.content p {
   -moz-border-radius: 10rem;
   -ms-border-radius: 10rem;
   -o-border-radius: 10rem;
+  margin-bottom: 5rem;
 }
 
 .styled-button a {
   text-decoration: none;
   color: inherit;
+}
+
+/* End of Fourth Page  */
+
+
+/* Fifth Page  */
+
+.fifth_page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+  margin-bottom: 10rem;
+}
+
+.fifth_page .content {
+  padding: 0 24rem;
+  margin: 1.5rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .trip-packages {
@@ -69,6 +330,28 @@ article.content p {
   align-items: center;
   justify-content: center;
   gap: 4rem;
+}
+
+/* End of Fifth Page  */
+
+
+/* Six Page  */
+
+.six_page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+  margin-bottom: 10rem;
+}
+
+.six_page .content {
+  padding: 0 24rem;
+  margin: 1.5rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .first-contact-content {
@@ -153,6 +436,8 @@ article.content p {
   color: var(--text-secondary-color);
   font-size: var(--font-size-large);
 }
+
+/* End of Six Page */
 
 @media screen and (max-width: 1024px) {
   article.content {
