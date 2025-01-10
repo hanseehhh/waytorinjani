@@ -9,11 +9,11 @@ section {
   overflow-x: hidden;
 }
 
-.main-content{
+.main-content {
   margin-top: 5rem;
 }
 
-.content img{
+.content img {
   width: 22rem;
   height: 7rem;
   margin-bottom: 2rem;
@@ -21,7 +21,7 @@ section {
 
 /* First Page */
 
-.first_page{
+.first_page {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -38,8 +38,8 @@ section {
   align-items: left;
 }
 
-.first_page .explanation{
-  font-family: 'Crimson Text';
+.first_page .explanation {
+  font-family: "Crimson Text";
   font-size: 18pt;
   text-align: justify;
   width: 70rem;
@@ -47,22 +47,21 @@ section {
 }
 
 #carousel {
-  width: 100%; 
-  max-width: 100rem; 
-  margin: 0 auto; 
+  width: 100%;
+  max-width: 100rem;
+  margin: 0 auto;
 }
 
 #carousel .carousel-inner img {
-  height: 40rem; 
-  object-fit: cover; 
+  height: 40rem;
+  object-fit: cover;
 }
 
 /* End First Page */
 
-
 /* Second Page */
 
-.second_page{
+.second_page {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -83,14 +82,14 @@ section {
 }
 
 .second_page .explanation {
-  font-family: 'Crimson Text';
+  font-family: "Crimson Text";
   font-size: 18pt;
   text-align: justify;
   width: 70rem;
 }
 
-.subtittle{
-  font-family: 'Crimson Text';
+.subtittle {
+  font-family: "Crimson Text";
   font-size: 24pt;
   font-weight: bold;
   text-align: justify;
@@ -99,14 +98,14 @@ section {
 }
 
 #carouselsecond_page {
-  width: 100%; 
-  max-width: 70rem; 
-  margin: 0 auto; 
+  width: 100%;
+  max-width: 70rem;
+  margin: 0 auto;
 }
 
 #carouselsecond_page .carousel-inner img {
-  height: 30rem; 
-  object-fit: cover; 
+  height: 30rem;
+  object-fit: cover;
 }
 
 .carousel-caption-bottom {
@@ -129,10 +128,9 @@ section {
 
 /* End Second Page */
 
-
 /* Third Page  */
 
-.third_page{
+.third_page {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -149,15 +147,15 @@ section {
 }
 
 #carouselthird_page {
-  width: 100%; 
-  max-width: 70rem; 
-  margin: 0 auto; 
+  width: 100%;
+  max-width: 70rem;
+  margin: 0 auto;
   margin-top: 2rem;
 }
 
 #carouselthird_page .carousel-inner img {
-  height: 30rem; 
-  object-fit: cover; 
+  height: 30rem;
+  object-fit: cover;
 }
 
 .carousel-caption-bottom {
@@ -179,7 +177,7 @@ section {
 }
 
 .third_page .explanation {
-  font-family: 'Crimson Text';
+  font-family: "Crimson Text";
   font-size: 18pt;
   text-align: justify;
   width: 70rem;
@@ -187,23 +185,23 @@ section {
 }
 
 .third_page .explanation {
-  font-family: 'Crimson Text';
+  font-family: "Crimson Text";
   font-size: 18pt;
   text-align: justify;
   width: 70rem;
   margin-top: 1rem;
 }
 
-.third_page .subtittle{
-  font-family: 'Poppins';
+.third_page .subtittle {
+  font-family: "Poppins";
   font-size: 26pt;
   font-weight: bold;
   text-align: justify;
   width: 70rem;
 }
 
-.third_page .sub-subtittle{
-  font-family: 'Crimson Text';
+.third_page .sub-subtittle {
+  font-family: "Crimson Text";
   font-size: 20pt;
   font-weight: bold;
   text-align: left;
@@ -211,7 +209,7 @@ section {
 }
 
 .third_page .paragraph {
-  font-family: 'Crimson Text';
+  font-family: "Crimson Text";
   font-size: 18pt;
   text-align: justify;
   width: 70rem;
@@ -219,7 +217,7 @@ section {
 }
 
 .third_page .explanation_end {
-  font-family: 'Crimson Text';
+  font-family: "Crimson Text";
   font-size: 18pt;
   text-align: justify;
   width: 70rem;
@@ -229,10 +227,9 @@ section {
 
 /* End Third Page  */
 
-
 /* Fourth Page  */
 
-.fourth_page{
+.fourth_page {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -258,13 +255,13 @@ section {
 }
 
 .fourth_page .private-trip {
-  flex: 1; 
-  max-width: 100%; 
+  flex: 1;
+  max-width: 100%;
   text-align: left;
 }
 
 .fourth_page .explanation {
-  font-family: 'Crimson Text';
+  font-family: "Crimson Text";
   font-size: 18pt;
   text-align: justify;
   width: 30rem;
@@ -272,8 +269,8 @@ section {
   margin-bottom: 3rem;
 }
 
-.fourth_page .subtittle{
-  font-family: 'Crimson Text';
+.fourth_page .subtittle {
+  font-family: "Crimson Text";
   font-size: 26pt;
   font-weight: medium;
   text-align: center;
@@ -304,10 +301,9 @@ section {
 
 /* End of Fourth Page  */
 
-
 /* Fifth Page  */
 
-.fifth_page{
+.fifth_page {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -334,10 +330,9 @@ section {
 
 /* End of Fifth Page  */
 
-
 /* Six Page  */
 
-.six_page{
+.six_page {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -437,28 +432,28 @@ section {
   font-size: var(--font-size-large);
 }
 
-#gallery h1{
+#gallery h1 {
   text-align: center;
 }
 
-.up-carousel{
+.up-carousel {
   margin: 4rem;
   display: flex;
   flex-direction: row;
   gap: 4rem;
 }
 
-.up-carousel h1{
+.up-carousel h1 {
   margin: 0;
 }
 
 #gallery .carousel-item {
-    transform: none !important;
-    transition: none !important;
-    -webkit-transform: none !important;
-    -moz-transform: none !important;
-    -ms-transform: none !important;
-    -o-transform: none !important;
+  transform: none !important;
+  transition: none !important;
+  -webkit-transform: none !important;
+  -moz-transform: none !important;
+  -ms-transform: none !important;
+  -o-transform: none !important;
 }
 
 #gallery .carousel-inner {
@@ -544,5 +539,28 @@ section {
   .up-carousel {
     flex-direction: column;
     gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .first-contact-content h2,
+  .first-contact-content h1,
+  .first-contact-content p,
+  .first-contact-content a {
+    text-align: center;
+  }
+
+  .first-contact-content .below {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .second-contact-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
