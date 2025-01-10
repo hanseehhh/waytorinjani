@@ -1,6 +1,6 @@
 @import "/assets/styles/variables.css";
 
-.text-medium{
+footer .text-medium{
   text-align: left;
 }
 
@@ -70,6 +70,10 @@ a:hover {
   width: 3rem;
 }
 
+.left-section p{
+  margin: 0;
+}
+
 @media screen and (max-width: 1024px) {
   footer {
     flex-direction: column;
@@ -94,6 +98,11 @@ a:hover {
 @media screen and (max-width: 768px) {
   a {
     font-size: var(--font-size-medium);
+  }
+
+  .up-section{
+   text-align: center;
+   margin: 0;
   }
 
   .down-section {

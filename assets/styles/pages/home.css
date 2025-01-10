@@ -39,7 +39,7 @@ section {
 }
 
 .first_page .explanation {
-  font-family: 'Crimson Text';
+  font-family: "Crimson Text";
   font-size: 18pt;
   text-align: justify;
   width: 70rem;
@@ -50,15 +50,19 @@ section {
   width: 100%;
   max-width: 100rem;
   margin: 0 auto;
+  width: 100%;
+  max-width: 100rem;
+  margin: 0 auto;
 }
 
 #carousel .carousel-inner img {
   height: 40rem;
   object-fit: cover;
+  height: 40rem;
+  object-fit: cover;
 }
 
 /* End First Page */
-
 
 /* Second Page */
 
@@ -83,14 +87,14 @@ section {
 }
 
 .second_page .explanation {
-  font-family: 'Crimson Text';
+  font-family: "Crimson Text";
   font-size: 18pt;
   text-align: justify;
   width: 70rem;
 }
 
 .subtittle {
-  font-family: 'Crimson Text';
+  font-family: "Crimson Text";
   font-size: 24pt;
   font-weight: bold;
   text-align: justify;
@@ -102,9 +106,14 @@ section {
   width: 100%;
   max-width: 70rem;
   margin: 0 auto;
+  width: 100%;
+  max-width: 70rem;
+  margin: 0 auto;
 }
 
 #carouselsecond_page .carousel-inner img {
+  height: 30rem;
+  object-fit: cover;
   height: 30rem;
   object-fit: cover;
 }
@@ -129,7 +138,6 @@ section {
 
 /* End Second Page */
 
-
 /* Third Page  */
 
 .third_page {
@@ -152,10 +160,15 @@ section {
   width: 100%;
   max-width: 70rem;
   margin: 0 auto;
+  width: 100%;
+  max-width: 70rem;
+  margin: 0 auto;
   margin-top: 2rem;
 }
 
 #carouselthird_page .carousel-inner img {
+  height: 30rem;
+  object-fit: cover;
   height: 30rem;
   object-fit: cover;
 }
@@ -179,7 +192,7 @@ section {
 }
 
 .third_page .explanation {
-  font-family: 'Crimson Text';
+  font-family: "Crimson Text";
   font-size: 18pt;
   text-align: justify;
   width: 70rem;
@@ -187,7 +200,7 @@ section {
 }
 
 .third_page .explanation {
-  font-family: 'Crimson Text';
+  font-family: "Crimson Text";
   font-size: 18pt;
   text-align: justify;
   width: 70rem;
@@ -195,7 +208,7 @@ section {
 }
 
 .third_page .subtittle {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-size: 26pt;
   font-weight: bold;
   text-align: justify;
@@ -203,7 +216,7 @@ section {
 }
 
 .third_page .sub-subtittle {
-  font-family: 'Crimson Text';
+  font-family: "Crimson Text";
   font-size: 20pt;
   font-weight: bold;
   text-align: left;
@@ -211,7 +224,7 @@ section {
 }
 
 .third_page .paragraph {
-  font-family: 'Crimson Text';
+  font-family: "Crimson Text";
   font-size: 18pt;
   text-align: justify;
   width: 70rem;
@@ -219,7 +232,7 @@ section {
 }
 
 .third_page .explanation_end {
-  font-family: 'Crimson Text';
+  font-family: "Crimson Text";
   font-size: 18pt;
   text-align: justify;
   width: 70rem;
@@ -228,7 +241,6 @@ section {
 }
 
 /* End Third Page  */
-
 
 /* Fourth Page  */
 
@@ -260,11 +272,13 @@ section {
 .fourth_page .private-trip {
   flex: 1;
   max-width: 100%;
+  flex: 1;
+  max-width: 100%;
   text-align: left;
 }
 
 .fourth_page .explanation {
-  font-family: 'Crimson Text';
+  font-family: "Crimson Text";
   font-size: 18pt;
   text-align: justify;
   width: 30rem;
@@ -273,7 +287,7 @@ section {
 }
 
 .fourth_page .subtittle {
-  font-family: 'Crimson Text';
+  font-family: "Crimson Text";
   font-size: 26pt;
   font-weight: medium;
   text-align: center;
@@ -304,7 +318,6 @@ section {
 
 /* End of Fourth Page  */
 
-
 /* Fifth Page  */
 
 .fifth_page {
@@ -333,7 +346,6 @@ section {
 }
 
 /* End of Fifth Page  */
-
 
 /* Six Page  */
 
@@ -458,6 +470,12 @@ section {
 }
 
 #gallery .carousel-item {
+  transform: none !important;
+  transition: none !important;
+  -webkit-transform: none !important;
+  -moz-transform: none !important;
+  -ms-transform: none !important;
+  -o-transform: none !important;
   transform: none !important;
   transition: none !important;
   -webkit-transform: none !important;
@@ -739,6 +757,27 @@ section {
     align-items: flex-start;
     gap: 6rem;
   }
+
+  .first_page .content,
+  .second_page .content,
+  .third_page,
+  .third_page .content,
+  .fourth_page .content {
+    padding: 0 2rem;
+  }
+
+  .first_page .explanation,
+  .second_page .explanation,
+  .second_page .subtittle,
+  .third_page .explanation,
+  .third_page .subtittle,
+  .third_page .sub-subtittle,
+  .third_page .paragraph,
+  .third_page .explanation_end,
+  .fourth_page .explanation,
+  .fourth_page .subtittle {
+    width: 100%;
+  }
 }
 
 /* End of Responsif Tablet */
@@ -750,7 +789,6 @@ section {
 @media screen and (max-width: 425px) {
 
   /* First Page */
-
   .first_page {
     display: flex;
     flex-direction: column;
