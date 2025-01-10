@@ -43,3 +43,19 @@ button {
     width: 90vw;
   }
 }
+
+@media screen and (max-width: 425px){
+
+  .accordion-button {
+    border-bottom: 2px solid var(--text-primary-color);
+    background-color: transparent;
+    color: var(--text-primary-color);
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: left;
+  }
+
+  .accordion-body{
+    font-size: 0.9rem;
+  }
+}
