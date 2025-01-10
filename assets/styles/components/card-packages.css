@@ -66,3 +66,48 @@
   color: inherit;
   font-size: 2rem;
 }
+
+@media screen and (max-width: 768px){
+  .card-packages{
+    width: 80%;
+    margin: 0 4rem;
+  }
+
+  .card-packages a {
+    width: 70%;
+    height: 70%;
+  }
+
+  .card-packages h1 {
+    margin: 1rem 0 0 0;
+    font-size: var(--font-size-header);
+    color: var(--text-tertiary-color);
+    font-weight: bold;
+    font-size: 1.7rem;
+  }
+  
+  .card-packages h2 {
+    color: var(--text-quaternary-color);
+    font-size: var(--font-size-xlarge);
+    margin: 0;
+    font-size: 1.3rem;
+  }
+  
+  .card-packages p {
+    font-size: var(--font-size-xlarge);
+    color: var(--text-primary-color);
+    font-weight: 600;
+    margin: 1rem 0 0.5rem 0;
+    font-size: 1.3rem;
+  }
+  
+  .card-packages p span {
+    color: var(--text-secondary-color);
+    font-size: var(--font-size-small);
+    font-size: 0.7rem;
+  }
+
+  .card-packages-button a {
+    font-size: 1rem;
+  }
+}
