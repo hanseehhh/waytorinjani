@@ -21,6 +21,17 @@ img {
   color: var(--text-primary-color);
 }
 
+@media screen and (max-width: 1224px) {
+  .container-fluid {
+    gap: 1rem;
+  }
+
+  .nav-link {
+    font-size: 1.6rem;
+  }
+}
+
+
 @media screen and (max-width: 992px) {
   .container-fluid {
     margin: 0 1rem;
