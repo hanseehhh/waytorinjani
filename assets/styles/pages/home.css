@@ -474,7 +474,7 @@ section {
     padding: 0 2rem;
   }
 
-  .package-services {
+   .package-services {
     margin: 0rem 2rem;
     display: flex;
     flex-direction: column;
@@ -511,6 +511,27 @@ section {
     align-items: flex-start;
     gap: 6rem;
   }
+
+  .first_page .content,
+  .second_page .content,
+  .third_page,
+  .third_page .content,
+  .fourth_page .content {
+    padding: 0 2rem;
+  }
+
+  .first_page .explanation,
+  .second_page .explanation,
+  .second_page .subtittle,
+  .third_page .explanation,
+  .third_page .subtittle,
+  .third_page .sub-subtittle,
+  .third_page .paragraph,
+  .third_page .explanation_end,
+  .fourth_page .explanation,
+  .fourth_page .subtittle {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -540,6 +561,14 @@ section {
     flex-direction: column;
     gap: 2rem;
   }
+
+  .fourth_page .package-services {
+    margin: 0 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 6rem;
+  }
 }
 
 @media screen and (max-width: 425px) {
@@ -562,5 +591,17 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  .up-carousel h1 {
+    margin: 0;
+    font-size: 1rem;
+  }
+
+  .up-carousel {
+    margin: 0rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
   }
 }
