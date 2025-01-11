@@ -67,7 +67,7 @@
   font-size: 2rem;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 425px){
   .card-packages{
     width: 80%;
     margin: 0 4rem;
