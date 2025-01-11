@@ -848,6 +848,11 @@ section {
   .fourth_page .subtittle {
     width: 100%;
   }
+
+  .up-carousel {
+    flex-direction: column;
+    gap: 2rem;
+  }
 }
 
 /* End of Responsif Tablet */
@@ -2040,6 +2045,7 @@ section {
   }
 
   .up-carousel {
+  margin: 2rem;
     flex-direction: column;
     gap: 2rem;
   }
