@@ -715,6 +715,76 @@ section {
 
   /* End Third Page  */
 
+  /* Fourth Page  */
+
+  .fourth_page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+  }
+
+  .fourth_page .content {
+    padding: 0 24rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .fourth_page .package-services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .fourth_page .private-trip {
+    width: 100%;
+    max-width: 40rem;
+    text-align: left;
+  }
+
+  .fourth_page .private-trip .explanation {
+    font-family: 'Crimson Text';
+    font-size: 18pt;
+    text-align: justify;
+    align-items: center;
+    width: 40rem;
+    margin-top: 1rem;
+  }
+
+  .fourth_page .private-trip .subtittle {
+    font-family: 'Crimson Text';
+    font-size: 24pt;
+    font-weight: medium;
+    text-align: center;
+    width: 40rem;
+  }
+
+  .styled-button {
+    background-color: var(--button-secondary-color);
+    color: var(--button-text-secondary-color);
+    border: none;
+    padding: 0.5rem 3rem;
+    border-radius: 10rem;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: var(--font-size-large);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    -webkit-border-radius: 10rem;
+    -moz-border-radius: 10rem;
+    -ms-border-radius: 10rem;
+    -o-border-radius: 10rem;
+    margin-bottom: 5rem;
+  }
+
+  .styled-button a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  /* End of Fourth Page  */
 
   article.content {
     padding: 0 2rem;
@@ -1052,7 +1122,7 @@ section {
     text-align: left;
   }
 
-  .fourth_page .explanation {
+  .fourth_page .private-trip .explanation {
     font-family: 'Crimson Text';
     font-size: 12pt;
     text-align: justify;
@@ -1061,7 +1131,7 @@ section {
     margin-top: 1rem;
   }
 
-  .fourth_page .subtittle {
+  .fourth_page .private-trip .subtittle {
     font-family: 'Crimson Text';
     font-size: 20pt;
     font-weight: medium;
@@ -1112,7 +1182,7 @@ section {
     justify-content: center;
     align-items: center;
   }
-  
+
   .fifth_page .content img {
     height: 5rem;
     width: 15rem;
@@ -1365,6 +1435,7 @@ section {
   .third_page .content h1 {
     font-size: 16pt;
     text-align: center;
+    margin-top: -1rem;
   }
 
 
@@ -1403,7 +1474,7 @@ section {
     font-size: 12pt;
     text-align: justify;
     width: 20rem;
-    margin-top: 2rem;
+    margin-top: -1rem;
   }
 
   .third_page .subtittle {
@@ -1441,7 +1512,7 @@ section {
 
   /* End Third Page  */
 
-  
+
   /* Fourth Page  */
 
   .fourth_page {
@@ -1468,6 +1539,7 @@ section {
   .fourth_page .content h1 {
     font-size: 16pt;
     text-align: center;
+    margin-top: -1rem;
   }
 
   .fourth_page .package-services {
@@ -1484,7 +1556,7 @@ section {
     text-align: left;
   }
 
-  .fourth_page .explanation {
+  .fourth_page .private-trip .explanation {
     font-family: 'Crimson Text';
     font-size: 12pt;
     text-align: justify;
@@ -1493,7 +1565,7 @@ section {
     margin-top: 1rem;
   }
 
-  .fourth_page .subtittle {
+  .fourth_page .private-trip .subtittle {
     font-family: 'Crimson Text';
     font-size: 20pt;
     font-weight: medium;
@@ -1547,12 +1619,392 @@ section {
 
   .fifth_page .content img {
     height: 5rem;
-    width:10rem;
+    width: 15rem;
   }
 
   .fifth_page .content h1 {
     font-size: 16pt;
     text-align: center;
+    margin-top: -1rem;
+  }
+
+  .trip-packages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+  }
+
+  /* End of Fifth Page  */
+
+  article.content h1 {
+    font-size: var(--font-size-xlarge);
+  }
+
+  .contact-media {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+  }
+
+  .contact-social-media {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+  }
+
+  .contacts {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0rem;
+  }
+
+  .up-carousel {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+
+  /* First Page */
+
+  .first_page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+    margin-top: 5rem;
+  }
+
+  .first_page .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+  }
+
+  .first_page .content img {
+    height: 3rem;
+    width: 10rem;
+  }
+
+  .first_page .explanation {
+    font-family: 'Crimson Text';
+    font-size: 12pt;
+    text-align: justify;
+    width: 18rem;
+    margin-bottom: 1rem;
+  }
+
+  #carousel {
+    width: 100%;
+    max-width: 25rem;
+    margin: 0 auto;
+  }
+
+  #carousel .carousel-inner img {
+    height: 15rem;
+    object-fit: cover;
+  }
+
+  /* End First Page */
+
+
+  /* Second Page */
+
+  .second_page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+  }
+
+  .second_page .content {
+    padding: 0 24rem;
+    margin: 1.5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .second_page .content img {
+    height: 5rem;
+    width: 15rem;
+  }
+
+  .second_page .content h1 {
+    font-size: 14pt;
+    text-align: center;
+    margin-top: -1rem;
+  }
+
+  .second_page .explanation {
+    font-family: 'Crimson Text';
+    font-size: 11pt;
+    text-align: justify;
+    width: 18rem;
+  }
+
+  .subtittle {
+    font-family: 'Crimson Text';
+    font-size: 14pt;
+    font-weight: bold;
+    text-align: justify;
+    width: 18rem;
+    margin-top: 2rem;
+  }
+
+  #carouselsecond_page {
+    width: 100%;
+    max-width: 18rem;
+    margin: 0 auto;
+  }
+
+  #carouselsecond_page .carousel-inner img {
+    height: 12rem;
+    object-fit: cover;
+  }
+
+  .carousel-caption-bottom {
+    font-family: "Crimson Text", serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    font-size: 18pt;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    padding: 10px 20px;
+  }
+
+  .second_page .carousel-inner {
+    position: relative;
+  }
+
+  /* End Second Page */
+
+
+  /* Third Page  */
+
+  .third_page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+  }
+
+  .third_page .content {
+    padding: 0 24rem;
+    margin: 1.5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .third_page .content img {
+    height: 5rem;
+    width: 15rem;
+  }
+
+  .third_page .content h1 {
+    font-size: 14pt;
+    text-align: center;
+    margin-top: -1rem;
+  }
+
+  #carouselthird_page {
+    width: 100%;
+    max-width: 19rem;
+    margin-top: 2rem;
+  }
+
+  #carouselthird_page .carousel-inner img {
+    height: 12rem;
+    object-fit: cover;
+  }
+
+  .carousel-caption-bottom {
+    font-family: "Crimson Text", serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    font-size: 11pt;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    padding: 10px 20px;
+  }
+
+  .third_page .carousel-inner {
+    position: relative;
+  }
+
+  .third_page .explanation {
+    font-family: 'Crimson Text';
+    font-size: 12pt;
+    text-align: justify;
+    width: 18rem;
+    margin-top: -1rem;
+  }
+
+  .third_page .subtittle {
+    font-family: 'Poppins';
+    font-size: 14pt;
+    font-weight: bold;
+    text-align: justify;
+    width: 18rem;
+  }
+
+  .third_page .sub-subtittle {
+    font-family: 'Crimson Text';
+    font-size: 14pt;
+    font-weight: bold;
+    text-align: left;
+    width: 18rem;
+  }
+
+  .third_page .paragraph {
+    font-family: 'Crimson Text';
+    font-size: 12pt;
+    text-align: justify;
+    width: 18rem;
+    margin-bottom: 2rem;
+  }
+
+  .third_page .explanation_end {
+    font-family: 'Crimson Text';
+    font-size: 12pt;
+    text-align: justify;
+    width: 18rem;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+  }
+
+  /* End Third Page  */
+
+
+  /* Fourth Page  */
+
+  .fourth_page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+  }
+
+  .fourth_page .content {
+    padding: 0 24rem;
+    margin: 1.5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .fourth_page .content img {
+    height: 5rem;
+    width: 15rem;
+  }
+
+  .fourth_page .content h1 {
+    font-size: 16pt;
+    text-align: center;
+    margin-top: -1rem;
+  }
+
+  .fourth_page .package-services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.25rem;
+  }
+
+  .fourth_page .private-trip {
+    width: 100%;
+    max-width: 18rem;
+    text-align: center;
+    align-items: center;
+  }
+
+  .fourth_page .private-trip .explanation {
+    font-family: 'Crimson Text';
+    font-size: 12pt;
+    text-align: justify;
+    align-items: center;
+    width: 18rem;
+    margin-top: 1rem;
+  }
+
+  .fourth_page .private-trip .subtittle {
+    font-family: 'Crimson Text';
+    font-size: 20pt;
+    font-weight: medium;
+    text-align: center;
+    width: 18rem;
+  }
+
+  .styled-button {
+    background-color: var(--button-secondary-color);
+    color: var(--button-text-secondary-color);
+    border: none;
+    padding: 0.5rem 3rem;
+    border-radius: 10rem;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: var(--font-size-large);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    -webkit-border-radius: 10rem;
+    -moz-border-radius: 10rem;
+    -ms-border-radius: 10rem;
+    -o-border-radius: 10rem;
+    margin-bottom: 5rem;
+  }
+
+  .styled-button a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  /* End of Fourth Page  */
+
+
+  /* Fifth Page  */
+
+  .fifth_page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+    margin-bottom: 10rem;
+  }
+
+  .fifth_page .content {
+    padding: 0 24rem;
+    margin: 1.5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .fifth_page .content img {
+    height: 5rem;
+    width: 15rem;
+  }
+
+  .fifth_page .content h1 {
+    font-size: 16pt;
+    text-align: center;
+    margin-top: -1rem;
   }
 
   .trip-packages {
