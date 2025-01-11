@@ -72,6 +72,11 @@ a:hover {
 
 .left-section p{
   margin: 0;
+  text-align: center;
+}
+
+.line-break {
+  display: none;
 }
 
 @media screen and (max-width: 1024px) {
@@ -109,5 +114,13 @@ a:hover {
     display: flex;
     flex-direction: column;
     gap: 4vw;
+  }
+}
+
+
+
+@media (max-width: 425px) {
+  .line-break {
+    display: inline;
   }
 }
