@@ -2045,7 +2045,7 @@ section {
   }
 
   .up-carousel {
-  margin: 2rem;
+    margin: 2rem;
     flex-direction: column;
     gap: 2rem;
   }
