@@ -1,0 +1,381 @@
+@import "/assets/styles/variables.css";
+@import "/assets/styles/components/carousel.css";
+@import "/assets/styles/components/card-trail.css";
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.main-content {
+  margin-top: 5rem;
+}
+
+.content img {
+  width: 22rem;
+  height: 7rem;
+  margin-bottom: 2rem;
+}
+
+/* First Page */
+
+.first_page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+  margin-top: 5rem;
+}
+
+.first_page .content {
+  padding: 0 24rem;
+  margin: 3rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.first_page .content h1 {
+  font-family: 'Poppins';
+  font-size: 24pt;
+  text-align: center;
+  font-weight: 600;
+  width: 70rem;
+  margin-bottom: 5rem;
+}
+
+.first_page .content h2 {
+  font-family: 'Poppins';
+  font-size: 18pt;
+  text-align: left;
+  font-weight: 600;
+  width: 70rem;
+}
+
+.first_page .explanation {
+  font-family: "Crimson Text";
+  font-size: 18pt;
+  text-align: justify;
+  width: 70rem;
+  margin-bottom: 3rem;
+}
+
+#carousel {
+  width: 100%;
+  max-width: 100rem;
+  margin: 0 auto;
+}
+
+#carousel .carousel-inner img {
+  height: 30rem;
+  object-fit: cover;
+}
+
+span.tertiary {
+  color: var(--text-tertiary-color);
+}
+
+span.quaternary {
+  color: var(--text-quaternary-color);
+}
+
+ul {
+  font-family: "Crimson Text";
+  list-style-type: decimal;
+  margin: 0;
+  font-size: 18pt;
+  justify-content: left;
+  text-align: left;
+}
+
+ul li {
+  margin-bottom: 10px;
+  justify-content: left;
+  text-align: left;
+}
+
+/* End First Page */
+
+
+/* Second Page */
+
+.second_page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.second_page .content {
+  padding: 0 24rem;
+  margin: 1.5rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.second_page .content h1 {
+  font-family: 'Poppins';
+  font-size: 24pt;
+  text-align: center;
+  font-weight: 600;
+  width: 70rem;
+}
+
+.second_page .explanation {
+  font-family: "Crimson Text";
+  font-size: 18pt;
+  text-align: justify;
+  width: 70rem;
+}
+
+.subtittle {
+  font-family: "Crimson Text";
+  font-size: 24pt;
+  font-weight: bold;
+  text-align: justify;
+  width: 70rem;
+  margin-top: 2rem;
+}
+
+#carouselsecond_page {
+  width: 100%;
+  max-width: 100rem;
+  margin: 0 auto;
+}
+
+#carouselsecond_page .carousel-inner img {
+  height: 35rem;
+  object-fit: cover;
+}
+
+.carousel-caption-bottom {
+  font-family: "Crimson Text", serif;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  font-size: 25pt;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: white;
+  padding: 10px 20px;
+}
+
+.second_page .carousel-inner {
+  position: relative;
+}
+
+/* End Second Page */
+
+
+/* Third Page  */
+
+.third_page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+  margin-bottom: 2rem;
+}
+
+.third_page .content {
+  padding: 0 24rem;
+  margin: 1.5rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#carouselthird_page {
+  width: 100%;
+  max-width: 70rem;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 70rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+#carouselthird_page .carousel-inner img {
+  height: 30rem;
+  object-fit: cover;
+  height: 30rem;
+  object-fit: cover;
+}
+
+.carousel-caption-bottom {
+  font-family: "Crimson Text", serif;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  font-size: 25pt;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: white;
+  padding: 10px 20px;
+}
+
+.third_page .carousel-inner {
+  position: relative;
+}
+
+.third_page .explanation {
+  font-family: "Crimson Text";
+  font-size: 18pt;
+  text-align: justify;
+  width: 70rem;
+  margin-top: 2rem;
+}
+
+.third_page .content h1 {
+  font-family: 'Poppins';
+  font-size: 24pt;
+  text-align: center;
+  font-weight: 600;
+  width: 70rem;
+}
+
+.third_page .explanation {
+  font-family: "Crimson Text";
+  font-size: 18pt;
+  text-align: justify;
+  width: 70rem;
+  margin-top: 1rem;
+}
+
+.third_page .subtittle {
+  font-family: "Poppins";
+  font-size: 26pt;
+  font-weight: bold;
+  text-align: justify;
+  width: 70rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.third_page .subtittles {
+  font-family: "Poppins";
+  font-size: 26pt;
+  font-weight: bold;
+  text-align: justify;
+  width: 70rem;
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+}
+
+
+.third_page .paragraph {
+  font-family: "Crimson Text";
+  font-size: 18pt;
+  text-align: justify;
+  width: 70rem;
+}
+
+.third_page .explanation_end {
+  font-family: "Crimson Text";
+  font-size: 18pt;
+  text-align: justify;
+  width: 70rem;
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+}
+
+/* Styling for the timeline list */
+.timeline {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 70rem;
+}
+
+.timeline li {
+  font-family: 'Poppins';
+  font-size: 16pt;
+  line-height: 1.6;
+  color: #555555;
+  display: flex;
+  gap: 2.5rem;
+  align-items: flex-start;
+  width: 70rem;
+}
+
+.timeline li strong {
+  color: #222222;
+  font-weight: bold;
+  min-width: 100px;
+  text-align: left;
+  display: inline-block; 
+  white-space: nowrap; 
+}
+
+/* End Third Page  */
+
+
+
+/* Fourth Page */
+
+.fourth_page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.fourth_page .content {
+  padding: 0 24rem;
+  margin: 1.5rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fourth_page .content h1 {
+  font-family: 'Poppins';
+  font-size: 24pt;
+  text-align: center;
+  font-weight: 600;
+  width: 70rem;
+}
+
+.fourth_page .explanation {
+  font-family: "Crimson Text";
+  font-size: 18pt;
+  text-align: justify;
+  width: 70rem;
+}
+
+.subtittle {
+  font-family: "Crimson Text";
+  font-size: 24pt;
+  font-weight: bold;
+  text-align: justify;
+  width: 70rem;
+  margin-top: 2rem;
+}
+
+#carouselfourth_page {
+  width: 100%;
+  max-width: 100rem;
+  margin: 0 auto;
+}
+
+#carouselfourth_page .carousel-inner img {
+  height: 35rem;
+  object-fit: cover;
+}
+
+.fourth_page .carousel-inner {
+  position: relative;
+}
+
+/* End Fourth Page */

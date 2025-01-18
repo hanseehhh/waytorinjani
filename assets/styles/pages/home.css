@@ -38,6 +38,13 @@ section {
   align-items: left;
 }
 
+.first_page .content h1 {
+  font-family: 'Poppins';
+  font-size: 900;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
 .first_page .explanation {
   font-family: "Crimson Text";
   font-size: 18pt;
